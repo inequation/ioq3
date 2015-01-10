@@ -823,6 +823,7 @@ typedef struct {
 	float		zFar;
 	float       zNear;
 	stereoFrame_t	stereoFrame;
+	qboolean	orthoProjection;	// this view should use orthographic, not perspective projection
 } viewParms_t;
 
 

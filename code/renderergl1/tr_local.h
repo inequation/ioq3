@@ -453,6 +453,7 @@ typedef struct {
 	vec3_t		visBounds[2];
 	float		zFar;
 	stereoFrame_t	stereoFrame;
+	qboolean	orthoProjection;	// this view should use orthographic, not perspective projection
 } viewParms_t;
 
 
