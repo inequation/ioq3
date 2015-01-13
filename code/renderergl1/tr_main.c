@@ -564,7 +564,7 @@ void R_SetupProjection(viewParms_t *dest, float zProj, qboolean computeFrustum)
 		// Y--+      +--X
 
 		float halfX = 0.5f * dest->fovX;
-		float halfY = 0.5f * dest->fovX;
+		float halfY = 0.5f * dest->fovY;
 		xmin  = -halfX;
 		xmax  =  halfX;
 		ymin  = -halfY;
